@@ -14,6 +14,9 @@
 		EB76EF13251B8DB2008FF1DD /* EmojiArtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76EF12251B8DB2008FF1DD /* EmojiArtDocument.swift */; };
 		EB9D4D83251F9D2D00D44A55 /* OptionalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9D4D82251F9D2D00D44A55 /* OptionalImage.swift */; };
 		EB9D4D86251FBDC000D44A55 /* AnimatableSystemFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9D4D85251FBDC000D44A55 /* AnimatableSystemFontModifier.swift */; };
+		EBCA44552522465300C79AA8 /* Spinning.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA44542522465300C79AA8 /* Spinning.swift */; };
+		EBCA44582523017000C79AA8 /* PaletteChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA44572523017000C79AA8 /* PaletteChooser.swift */; };
+		EBCA445C2523050200C79AA8 /* EmojiArtDocument+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA445B2523050200C79AA8 /* EmojiArtDocument+Palette.swift */; };
 		EBE94462251BC461002C27F5 /* EmojiArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE94461251BC461002C27F5 /* EmojiArt.swift */; };
 		EBE94465251C827B002C27F5 /* EmojiArtExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE94464251C827B002C27F5 /* EmojiArtExtensions.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +31,9 @@
 		EB76EF12251B8DB2008FF1DD /* EmojiArtDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocument.swift; sourceTree = "<group>"; };
 		EB9D4D82251F9D2D00D44A55 /* OptionalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalImage.swift; sourceTree = "<group>"; };
 		EB9D4D85251FBDC000D44A55 /* AnimatableSystemFontModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableSystemFontModifier.swift; sourceTree = "<group>"; };
+		EBCA44542522465300C79AA8 /* Spinning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinning.swift; sourceTree = "<group>"; };
+		EBCA44572523017000C79AA8 /* PaletteChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteChooser.swift; sourceTree = "<group>"; };
+		EBCA445B2523050200C79AA8 /* EmojiArtDocument+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmojiArtDocument+Palette.swift"; sourceTree = "<group>"; };
 		EBE94461251BC461002C27F5 /* EmojiArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArt.swift; sourceTree = "<group>"; };
 		EBE94464251C827B002C27F5 /* EmojiArtExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +71,10 @@
 				EB76EF02251B8D80008FF1DD /* EmojiArtApp.swift */,
 				EBE94461251BC461002C27F5 /* EmojiArt.swift */,
 				EB76EF12251B8DB2008FF1DD /* EmojiArtDocument.swift */,
+				EBCA445B2523050200C79AA8 /* EmojiArtDocument+Palette.swift */,
 				EB76EF04251B8D80008FF1DD /* EmojiArtDocumentView.swift */,
+				EBCA44572523017000C79AA8 /* PaletteChooser.swift */,
+				EBCA44542522465300C79AA8 /* Spinning.swift */,
 				EB9D4D82251F9D2D00D44A55 /* OptionalImage.swift */,
 				EBE94464251C827B002C27F5 /* EmojiArtExtensions.swift */,
 				EB9D4D85251FBDC000D44A55 /* AnimatableSystemFontModifier.swift */,
@@ -158,8 +167,11 @@
 				EBE94465251C827B002C27F5 /* EmojiArtExtensions.swift in Sources */,
 				EB76EF05251B8D80008FF1DD /* EmojiArtDocumentView.swift in Sources */,
 				EB9D4D83251F9D2D00D44A55 /* OptionalImage.swift in Sources */,
+				EBCA445C2523050200C79AA8 /* EmojiArtDocument+Palette.swift in Sources */,
 				EB76EF13251B8DB2008FF1DD /* EmojiArtDocument.swift in Sources */,
 				EB76EF03251B8D80008FF1DD /* EmojiArtApp.swift in Sources */,
+				EBCA44552522465300C79AA8 /* Spinning.swift in Sources */,
+				EBCA44582523017000C79AA8 /* PaletteChooser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
