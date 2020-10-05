@@ -25,6 +25,9 @@
 		EBE27C6F252B422900944FE8 /* FlightAware+Enroute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE27C69252B422900944FE8 /* FlightAware+Enroute.swift */; };
 		EBE27C70252B422900944FE8 /* FlightAwareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE27C6A252B422900944FE8 /* FlightAwareRequest.swift */; };
 		EBE27C71252B422900944FE8 /* FlightAware+AirportInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE27C6B252B422900944FE8 /* FlightAware+AirportInfo.swift */; };
+		EBE27C77252B846000944FE8 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE27C76252B846000944FE8 /* Airport.swift */; };
+		EBE27C7B252B89B500944FE8 /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE27C7A252B89B500944FE8 /* Airline.swift */; };
+		EBE27C7E252BA14800944FE8 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE27C7D252BA14800944FE8 /* Flight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		EBE27C69252B422900944FE8 /* FlightAware+Enroute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlightAware+Enroute.swift"; sourceTree = "<group>"; };
 		EBE27C6A252B422900944FE8 /* FlightAwareRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightAwareRequest.swift; sourceTree = "<group>"; };
 		EBE27C6B252B422900944FE8 /* FlightAware+AirportInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlightAware+AirportInfo.swift"; sourceTree = "<group>"; };
+		EBE27C76252B846000944FE8 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		EBE27C7A252B89B500944FE8 /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		EBE27C7D252BA14800944FE8 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 		EBE27C2E252B40FF00944FE8 /* Enroute */ = {
 			isa = PBXGroup;
 			children = (
+				EBE27C75252B836700944FE8 /* Data */,
 				EBE27C65252B420E00944FE8 /* FlightAware */,
 				EBE27C2F252B40FF00944FE8 /* AppDelegate.swift */,
 				EBE27C31252B40FF00944FE8 /* SceneDelegate.swift */,
@@ -117,6 +124,16 @@
 				EBE27C66252B422900944FE8 /* FlightSimulationData.swift */,
 			);
 			path = FlightAware;
+			sourceTree = "<group>";
+		};
+		EBE27C75252B836700944FE8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EBE27C76252B846000944FE8 /* Airport.swift */,
+				EBE27C7A252B89B500944FE8 /* Airline.swift */,
+				EBE27C7D252BA14800944FE8 /* Flight.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,10 +211,13 @@
 				EBE27C6C252B422900944FE8 /* FlightSimulationData.swift in Sources */,
 				EBE27C53252B414900944FE8 /* FlightFetcher.swift in Sources */,
 				EBE27C30252B40FF00944FE8 /* AppDelegate.swift in Sources */,
+				EBE27C7B252B89B500944FE8 /* Airline.swift in Sources */,
 				EBE27C6F252B422900944FE8 /* FlightAware+Enroute.swift in Sources */,
 				EBE27C51252B414900944FE8 /* FlightsEnrouteView.swift in Sources */,
 				EBE27C32252B40FF00944FE8 /* SceneDelegate.swift in Sources */,
+				EBE27C7E252BA14800944FE8 /* Flight.swift in Sources */,
 				EBE27C4E252B414900944FE8 /* Airports.swift in Sources */,
+				EBE27C77252B846000944FE8 /* Airport.swift in Sources */,
 				EBE27C54252B414900944FE8 /* FoundationExtensions.swift in Sources */,
 				EBE27C70252B422900944FE8 /* FlightAwareRequest.swift in Sources */,
 				EBE27C52252B414900944FE8 /* FilterFlights.swift in Sources */,
