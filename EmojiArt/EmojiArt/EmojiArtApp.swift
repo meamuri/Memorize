@@ -17,6 +17,8 @@ struct EmojiArtApp: App {
     }
     
     func getStore() -> EmojiArtDocumentStore {
-        EmojiArtDocumentStore(named: "Emoji Art")        
+//        return EmojiArtDocument(named: "Emoji Art")
+        let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+        return EmojiArtDocumentStore(directory: url)
     }
 }
